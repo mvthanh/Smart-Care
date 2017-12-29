@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@android:color/black"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" Blood Pressure"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SYS \n mmHg"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="118"
+                android:textSize="25pt"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:background="@android:color/white"
+                android:layout_marginRight="40dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="DIA \n mmHg"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="78"
+                android:textSize="25pt"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:background="@android:color/white"
+                android:layout_marginRight="40dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="PULSE \n mmHg"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="70"
+                android:textSize="17pt"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:background="@android:color/white"
+                android:layout_marginRight="40dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="21/12/2017   15:15 PM"
+            android:textSize="10pt"
+            
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_red_dark"
+                android:text=" Normal Blood Pressure"
+                android:width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1.8"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:padding="5dp"
+            android:id="@+id/ButtonBackpress"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:src="@drawable/gaucon" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    >
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@android:color/black"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="  Heartbeat"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+  </LinearLayout>
+
+
+
+  <LinearLayout
+      android:background="@android:color/white"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.08">
+
+  </LinearLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:paddingTop="10dp"
+      android:text="78 BPM"
+      android:textSize="11pt"
+      android:textStyle="normal"
+      android:fontFamily="serif"
+      android:textColor="@android:color/white"
+      android:layout_gravity="center"
+      android:gravity="center_horizontal"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:text="21/12/2017 \t 15:15 PM"
+      android:textSize="8pt"
+      android:textStyle="normal"
+      android:fontFamily="serif"
+      android:textColor="@android:color/white"
+      android:layout_gravity="center"
+      android:gravity="center_horizontal"/>
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="5"
+      android:src="@drawable/beat"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:orientation="horizontal"
+      android:layout_marginLeft="22dp"
+      android:layout_marginRight="21dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+
+      android:layout_weight="1">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="Normal Heartbeat"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:textSize="10pt"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+        >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="1"
+        android:id="@+id/ButtonBackbeat"
+        android:padding="10dp"
+        android:src="@drawable/back1"
+
+            />
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"/>
+
+
+
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:background="@android:color/white"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.08">
+
+  </LinearLayout>
+
+</LinearLayout>

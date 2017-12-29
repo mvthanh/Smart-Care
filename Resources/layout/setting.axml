@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.4"
+      android:background="@android:color/black"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="  Setting"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1.5"
+      android:orientation="horizontal"
+      android:layout_marginLeft="20dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:text=" APPEARANCE"
+          android:textSize="10pt"
+          android:textStyle="bold"
+          android:fontFamily="serif"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:text="Theme"
+          android:textSize="8pt"
+          android:textStyle="normal"
+          android:fontFamily="serif"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"
+                />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:text="Language"
+          android:textSize="8pt"
+          android:textStyle="normal"
+          android:fontFamily="serif"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/gaunua"
+            />
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1.5"
+          android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="   OTHER"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0pt"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"/>
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="2.2"
+          android:text="Push notification"
+          android:textSize="7pt"
+          android:textStyle="normal"
+          android:fontFamily="serif"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"
+                    />
+
+      <Switch
+          android:id="@+id/switch1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:checked="true"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0pt"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"/>
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="2.2"
+          android:text="Clear search history"
+          android:textSize="7pt"
+          android:textStyle="normal"
+          android:fontFamily="serif"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"
+                />
+
+      <Switch
+          android:id="@+id/switch2"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:checked="true"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0pt"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"/>
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="2.2"
+          android:text="Save history automatically"
+          android:textSize="7pt"
+          android:textStyle="normal"
+          android:fontFamily="serif"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"
+                />
+
+      <Switch
+          android:id="@+id/switch3"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:checked="true"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.7"
+      android:layout_marginBottom="10dp"
+      android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/back"
+        android:id="@+id/ButtonBacksetting"
+        android:padding="17dp"/>
+    <ImageView
+
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:src="@drawable/gaucon" />
+
+  </LinearLayout>
+
+
+
+
+
+</LinearLayout>

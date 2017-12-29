@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr11"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.4"
+      android:background="@android:color/black"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text=" Temperature"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1.5"
+      android:orientation="horizontal"
+        >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.6"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"/>
+      <TextView
+          android:layout_marginLeft="10dp"
+          android:layout_width="match_parent"
+          android:background="@android:color/holo_red_dark"
+          android:text=" Normal Temperature"
+
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:textSize="9pt"
+          android:textStyle="bold"
+          android:fontFamily="casual"
+          android:textColor="@android:color/black"
+          android:layout_gravity="center"
+          android:gravity="center_vertical"
+                />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/gaunua"
+            />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.7"
+      android:layout_marginBottom="10dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="   37.1C"
+        android:textSize="25pt"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1.5"
+      android:layout_marginBottom="10dp"
+      android:orientation="horizontal">
+
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.7"
+      android:layout_marginBottom="10dp"
+      android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/back"
+        android:padding="17dp"
+        android:id="@+id/ButtonBacktem"/>
+    <ImageView
+
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:src="@drawable/gaucon" />
+
+  </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
