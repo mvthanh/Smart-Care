@@ -23,7 +23,7 @@ namespace login
             SetContentView(Resource.Layout.task);
 
             TextView buttonBack = FindViewById<TextView>(Resource.Id.ButtonBacktask);
-            buttonBack.Click += ButtonLogin_Click;
+            buttonBack.Click += ButtonBack_Click;
 
             LinearLayout map = FindViewById<LinearLayout>(Resource.Id.map);
             map.Click += Map_Click;
@@ -48,52 +48,42 @@ namespace login
         }
         private void Setting_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.setting);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBacksetting);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(SettingActivity));
+           
         }
         private void Logout_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.login);
-
-            Button buttonLogin = FindViewById<Button>(Resource.Id.button1);
-            buttonLogin.Click += ButtonLogin_Click;
-
+            StartActivity(typeof(LogoutActivity));
+           
         }
         private void Guild_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.guild);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackguild);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(GuildActivity));
+            
         }
         private void History_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.history);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackhistory);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(HistoryActivity));
+           
         }
-
-       
-
+        
         private void Note_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.note);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBacknote);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(NoteActivity));
+           
         }
         private void Map_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.map);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackmap);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(MapActivity));
+            
         }
         private void Remind_Click(object sender, EventArgs e)
+           
         {
-            SetContentView(Resource.Layout.remind);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackremind);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(RemindActivity));
         }
-        private void ButtonLogin_Click(object sender, EventArgs e)
+          
+        private void ButtonBack_Click(object sender, EventArgs e)
         {
             StartActivity(typeof(LoginActivity));
         }

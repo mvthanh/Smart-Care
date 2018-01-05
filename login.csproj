@@ -52,12 +52,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddActivity.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="BloodPressureActivity.cs" />
     <Compile Include="DoctorActivity.cs" />
+    <Compile Include="Family1Activity.cs" />
+    <Compile Include="Family2Activity.cs" />
+    <Compile Include="GuildActivity.cs" />
+    <Compile Include="HeartBeatActivity.cs" />
+    <Compile Include="HistoryActivity.cs" />
     <Compile Include="LoginActivity.cs" />
+    <Compile Include="LogoutActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MapActivity.cs" />
+    <Compile Include="NoteActivity.cs" />
+    <Compile Include="RemindActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingActivity.cs" />
+    <Compile Include="TemperatureActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

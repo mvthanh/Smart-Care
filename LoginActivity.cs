@@ -46,9 +46,8 @@ namespace login
 
         private void Beat_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.beat);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackbeat);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(HeartBeatActivity));
+            
         }
         private void Doctor_Click(object sender, EventArgs e)
         {
@@ -56,30 +55,24 @@ namespace login
         }
         private void Pressure_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.pressure);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackpress);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(BloodPressureActivity));
+            
         }
-
-       
-
+        
         private void Family1_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.call1);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackcall1);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(Family1Activity));
+            
         }
         private void Family2_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.call2);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBackcall2);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(Family2Activity));
+            
         }
         private void Temperature_Click(object sender, EventArgs e)
         {
-            SetContentView(Resource.Layout.temperature);
-            ImageView buttonBack = FindViewById<ImageView>(Resource.Id.ButtonBacktem);
-            buttonBack.Click += ButtonLogin_Click;
+            StartActivity(typeof(TemperatureActivity));
+           
         }
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
